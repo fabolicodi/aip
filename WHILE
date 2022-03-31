@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+
+{
+    int n;
+    int i=10;
+    int sum=0;
+    while(i){
+        scanf("%d",&n);
+        sum+=n;
+        i--;
+            }
+    printf("Ukupno: %d",sum);
+    printf("Prosjecno:%f",(float)sum/10);
+
+
+
+
+
+}
+
