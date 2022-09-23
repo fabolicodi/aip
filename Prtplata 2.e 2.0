@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+ int trosak(int n ,int x){
+ return n*x;
+  }
+ int trosak2(int n ,int x=15){
+ return n*x;
+ }
+
+int main()
+{
+ int a;
+    printf("Unesi broj prijatelja \n");
+	scanf("%d",&a);
+ int b;
+	printf("Unesi cijenu pretplate\n");
+	scanf("%d",&b);
+ int c;
+    printf("Ukupna cijena:  %d  ",c=trosak(a,b));
+     printf("Ukupna cijena:  %d",c=trosak2(a));
+
+
+
+
+
+
+
+}
