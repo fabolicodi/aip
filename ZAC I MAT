@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int bat (int x){
+	return x*0.5;
+}
+int man (int z, int y){
+	return z*y;
+}
+int axe( int u,int i){
+	return u+i;
+}
+int main(){
+int a,b;
+printf("Unesi koliko je Zeljko dobio kovancia od 1 kn\n");
+scanf("%d",&a);
+printf("Unesi koliko Zeljko dobio kovanica od 0.5 kn\n");
+scanf("%d",&b);
+printf("Zaradio je %d kn od kovancia od 1kn i %d kn od kovanica od 0.5 ",a,bat(b),man(a,b));
+int c;
+printf("ZAC posjeduje %d kovanica",c=axe(a,b));
+
+
+return 0;
+}
